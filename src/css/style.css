@@ -95,8 +95,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -304,9 +302,9 @@ body {
   padding: 6px 20px;
 }
 
-.filter__button:not(:last-child) {
+/* .filter__button:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
 .content__title {
   display: -webkit-box;
@@ -868,4 +866,114 @@ body {
 
 .volume__progress-line {
   width: 109px;
+}
+
+  /* для блока со списком треков */
+    
+.shadow-skelet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.cover {
+  width: 51px;
+  height: 51px;
+  background-color: #313131;
+}
+
+.track-shadow-one {
+  width: 356px;
+  height: 19px;
+  background-color: #313131;
+}
+
+.track-shadow-two {
+  width: 271px;
+  height: 19px;
+  background-color: #313131;
+}
+
+.track-shadow-three {
+  width: 303px;
+  height: 19px;
+  background-color: #313131;
+}
+
+/* для блока проигрывателя */
+
+.shadow-min {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 122px;
+  height: 51px;
+}
+
+.track-shadow-min {
+  width: 59px;
+  height: 15px;
+  background-color: #313131;
+}
+
+.shadow-colum{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* для блока коллекций */
+
+.shadow-collection{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+
+}
+
+.collection{
+  width: 250px;
+  height: 150px;
+
+  background: #313131;
+} 
+
+/* для всплывающего окна */
+
+.menu-container {
+  width: 248px;
+  height: 305px;
+  border-radius: 12px;
+  background-color: #313131;
+  box-sizing: border-box;
+  padding: 34px;
+  
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+.link-list {
+  color: white;
+  text-decoration:none
+}
+
+a:hover {
+  color: #B672FF;
+}
+
+.scrollbars {
+width: 4px;
+height: 237px;
+scrollbar-color: #FFFFFF #4B4949;
 }

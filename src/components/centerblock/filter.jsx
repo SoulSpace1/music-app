@@ -1,10 +1,28 @@
+import React from "react";
+import { Menu } from "../menu/menu";
+import { MenuItem } from "../menu/menu-item";
+
 export function Filter(props){
+   
+
     return (
         <div className="centerblock__filter filter">
             <div className="filter__title">Искать по:</div>
-            <div className="filter__button button-author _btn-text">исполнителю</div>
-            <div className="filter__button button-year _btn-text">году выпуска</div>
-            <div className="filter__button button-genre _btn-text">жанру</div>
+            <Menu title={'исполнителю'}>
+                      <MenuItem title={'cnj-nj'}/>
+                      <MenuItem title={'cnj-nj'}/>  
+                      <MenuItem title={'cnj-nj'}/>              
+                    </Menu>
+            <Menu title={'году выпуска'}>
+                      <MenuItem />
+                      <MenuItem />  
+                      <MenuItem />              
+                    </Menu>
+            <Menu title={'жанру'}>
+                      <MenuItem />
+                      <MenuItem />  
+                      <MenuItem />              
+                    </Menu>
         </div>
     );
 }
