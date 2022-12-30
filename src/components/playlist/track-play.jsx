@@ -3,7 +3,7 @@ export function TrackPlay(props){
         <div className="track-play__contain">
             <div className="track-play__image">
                 <svg className="track-play__svg" alt="music">
-                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="/img/icon/sprite.svg#icon-note"></use>
                 </svg>
             </div>
             <div className="track-play__author">
