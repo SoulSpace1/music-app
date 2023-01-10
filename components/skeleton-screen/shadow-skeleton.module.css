@@ -1,0 +1,73 @@
+/* для блока со списком треков */
+    
+.shadow_skelet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+  
+.cover {
+    width: 51px;
+    height: 51px;
+    background-color: #313131;
+}
+  
+.track_shadow_one {
+    width: 356px;
+    height: 19px;
+    background-color: #313131;
+}
+  
+.track_shadow_two {
+    width: 271px;
+    height: 19px;
+    background-color: #313131;
+}
+  
+.track_shadow_three {
+    width: 303px;
+    height: 19px;
+    background-color: #313131;
+}
+  
+/* для блока проигрывателя */
+  
+.shadow_min {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 122px;
+    height: 51px;
+}
+  
+.track_shadow_min {
+    width: 59px;
+    height: 15px;
+    background-color: #313131;
+}
+  
+.shadow_colum{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+  
+/* для блока коллекций */
+  
+.shadow_collection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+  
+.collection{
+    width: 250px;
+    height: 150px;
+  
+    background: #313131;
+} 
