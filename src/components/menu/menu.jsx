@@ -24,8 +24,8 @@ export const Menu = ({children, title}) => {
     return <div style={{marginRight: 10}}>
         <div className="filter__button _btn-text" ref={menuRef} onClick={onOpen}>{title}</div>
         
-        {open &&<div class="menu-container" style={{position:'absolute'}}>
-            <div class="menu-list">
+        {open &&<div className="menu-container" style={{position:'absolute'}}>
+            <div className="menu-list">
             {children}
             </div>
         </div>}
