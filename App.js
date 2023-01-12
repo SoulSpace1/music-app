@@ -24,6 +24,8 @@ import { ShadowSkelet } from './components/skeleton-screen/skeleton-screen.jsx';
 
 import s from './general.module.css';
 
+import { AppRoutes } from './routes.jsx';
+
 
 // import './css/style.css';
 
@@ -58,6 +60,7 @@ function App() {
 
 return (
     <div className={s.wrapper}>
+        <AppRoutes />
         <div className={s.container}>
             <main className={s.main}>
                 <nav className={s.main__nav}>
