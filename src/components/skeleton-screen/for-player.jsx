@@ -1,11 +1,11 @@
 
 export function ForPlayer(){
     return (
-        <div class="shadow-min">
-        <span class="cover"></span>
-        <div class="shadow-colum">
-            <span class="track-shadow-min"></span>
-            <span class="track-shadow-min"></span>
+        <div className="shadow-min">
+        <span className="cover"></span>
+        <div className="shadow-colum">
+            <span className="track-shadow-min"></span>
+            <span className="track-shadow-min"></span>
         </div>
     </div>
     );
