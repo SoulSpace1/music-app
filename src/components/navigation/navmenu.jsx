@@ -18,7 +18,9 @@ export function NavMenu({ user, onAuthButtonClick }){
                 <li className={style.menu__item}><a href="http://" className={style.menu__link}>Войти</a></li>
             </ul>
 
-
+                <button onClick={onAuthButtonClick}>
+                       {user ? "Sign out" : "Sign in"}
+                </button>
         </div>
     );
 }
