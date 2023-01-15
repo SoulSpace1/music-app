@@ -24,7 +24,7 @@ export const Menu = ({children, title}) => {
     const onOpen = () => setOpen(true)
 
     return <div style={{marginRight: 10}}>
-        <div className={style.filter__button && style._btn_text} ref={menuRef} onClick={onOpen}>{title}</div>
+        <div className={`${style.filter__button} ${style._btn_text}`} ref={menuRef} onClick={onOpen}>{title}</div>
         
         {open &&<div className={style.menu_container} style={{position:'absolute'}}>
             <div className={style.menu_list}>
