@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { AudioPlayer } from './components/audio-player/audio-player.jsx';
-import { BtnLogin } from './components/button-login/btn-login.jsx';
+// import { BtnLogin } from './components/button-login/btn-login.jsx'; увидела
 import { ContentTitle } from './components/centerblock/contenttitle.jsx';
 import { Filter } from './components/centerblock/filter.jsx';
 import { PlaylistItem } from './components/centerblock/playlistitem.jsx';
